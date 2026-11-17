@@ -1,0 +1,10 @@
+# Sensitive files and API keys
+current-weather-app/js/config.js
+js/config.js
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
