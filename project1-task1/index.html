@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- Primary Meta Tags -->
+  <title>S. Shanmuga Priya | MCA Student & Aspiring Full Stack Web Developer</title>
+  <meta name="title" content="S. Shanmuga Priya | MCA Student & Aspiring Full Stack Web Developer">
+  <meta name="description" content="Personal developer portfolio of S. Shanmuga Priya, an MCA student at Thanthai Hans Roever College and aspiring Full Stack Web Developer skilled in HTML5, CSS3, JavaScript, PHP, and MySQL.">
+  <meta name="keywords" content="S Shanmuga Priya, Shanmuga Priya, MCA Student, Full Stack Web Developer, Thanthai Hans Roever College, Staff Automation System, PHP MySQL Developer, Portfolio, Fresher Developer">
+  <meta name="author" content="S. Shanmuga Priya">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shanmugapriya.dev/">
+  <meta property="og:title" content="S. Shanmuga Priya | Developer Portfolio">
+  <meta property="og:description" content="MCA student & aspiring Full Stack Web Developer specializing in PHP, MySQL, HTML5, CSS3, and JavaScript.">
+  <meta property="og:image" content="images/project1.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome CDN for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Responsive Stylesheet -->
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- ========================================================================= -->
+  <!-- NAVIGATION BAR                                                            -->
+  <!-- ========================================================================= -->
+  <header class="navbar-wrapper" id="mainHeader">
+    <nav class="navbar container" aria-label="Main Navigation">
+      <!-- Brand Logo -->
+      <a href="#home" class="nav-brand" aria-label="Shanmuga Priya Portfolio Home">
+        <span class="logo-icon"><i class="fa-solid fa-code"></i></span>
+        <span class="logo-text">Shanmuga<span class="logo-dot">.</span><span class="logo-accent">Priya</span></span>
+      </a>
+
+      <!-- Desktop & Tablet Navigation Menu -->
+      <ul class="nav-menu" id="navMenu">
+        <li class="nav-item">
+          <a href="#home" class="nav-link active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#education" class="nav-link">Education</a>
+        </li>
+        <li class="nav-item">
+          <a href="#skills" class="nav-link">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a href="#projects" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#resume" class="nav-link">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Navbar Right Actions -->
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button type="button" class="theme-toggle-btn" id="themeToggle" aria-label="Toggle dark/light theme" title="Toggle Theme">
+          <i class="fa-solid fa-moon theme-icon moon-icon"></i>
+          <i class="fa-solid fa-sun theme-icon sun-icon"></i>
+        </button>
+
+        <!-- CTA Button (Desktop) -->
+        <a href="#contact" class="btn btn-sm btn-primary nav-cta">Let's Connect</a>
+
+        <!-- Hamburger Menu Button (Mobile) -->
+        <button type="button" class="hamburger-btn" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="mainContent">
+
+    <!-- ========================================================================= -->
+    <!-- 3. HOME / HERO SECTION                                                    -->
+    <!-- ========================================================================= -->
+    <section id="home" class="hero-section section-padding">
+      <!-- Ambient Background Glows -->
+      <div class="ambient-glow glow-top-left" aria-hidden="true"></div>
+      <div class="ambient-glow glow-bottom-right" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <!-- Status Badge -->
+          <div class="status-badge" data-reveal>
+            <span class="pulsing-dot"></span>
+            <span>Open to Opportunities &bull; Fresher MCA</span>
+          </div>
+
+          <!-- Main Greeting -->
+          <h1 class="hero-title" data-reveal>
+            Hi, I'm <span class="gradient-text">S. Shanmuga Priya</span>
+          </h1>
+
+          <!-- Role Subtitle with Typing Animation -->
+          <div class="hero-subtitle-wrapper" data-reveal>
+            <span class="hero-subtitle">An MCA Student | <span class="typed-text" id="typedRole">Aspiring Full Stack Web Developer</span></span>
+          </div>
+
+          <!-- Short Introduction -->
+          <p class="hero-description" data-reveal>
+            I am an MCA student passionate about web development and programming. I enjoy building responsive websites and developing practical applications using modern web technologies.
+          </p>
+
+          <!-- Call to Action Buttons -->
+          <div class="hero-buttons" data-reveal>
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Projects</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="#resume" class="btn btn-outline" id="heroResumeBtn">
+              <i class="fa-solid fa-file-arrow-down"></i>
+              <span>Download Resume</span>
+            </a>
+          </div>
+
+          <!-- Social Links Bar -->
+          <div class="hero-social-wrapper" data-reveal>
+            <span class="social-label">Connect with me:</span>
+            <div class="social-links">
+              <!-- Placeholder Links: Easily editable by Shanmuga Priya -->
+              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile" title="GitHub (Edit placeholder in index.html)">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile" title="LinkedIn (Edit placeholder in index.html)">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="mailto:your.email@example.com" class="social-link" aria-label="Email Me" title="Email (Edit placeholder in index.html)">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a href="tel:+919876543210" class="social-link" aria-label="Call Me" title="Phone (Edit placeholder in index.html)">
+                <i class="fa-solid fa-phone"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual / Profile Card -->
+        <div class="hero-visual" data-reveal>
+          <div class="avatar-card-wrapper">
+            <!-- Decorative Animated Glowing Ring -->
+            <div class="avatar-glow-ring"></div>
+
+            <!-- Profile Image Card -->
+            <div class="avatar-card">
+              <img src="images/profile.jpg" alt="S. Shanmuga Priya - MCA Student & Aspiring Full Stack Web Developer" class="avatar-img" onerror="this.onerror=null; this.src='images/profile-avatar.svg';">
+            </div>
+
+            <!-- Floating Tech Badges -->
+            <div class="floating-badge badge-php" title="Backend: PHP & MySQL">
+              <i class="fa-brands fa-php badge-icon"></i>
+              <div class="badge-text">
+                <span class="badge-title">PHP &amp; MySQL</span>
+                <span class="badge-sub">Backend Stack</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-web" title="Frontend: HTML5, CSS3 & JavaScript">
+              <i class="fa-brands fa-html5 badge-icon"></i>
+              <div class="badge-text">
+                <span class="badge-title">HTML &bull; CSS &bull; JS</span>
+                <span class="badge-sub">Responsive Web</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-degree" title="Education: MCA Pursuing">
+              <i class="fa-solid fa-graduation-cap badge-icon"></i>
+              <div class="badge-text">
+                <span class="badge-title">MCA Candidate</span>
+                <span class="badge-sub">Roever College</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Ticker / Tech Highlights Ribbon -->
+      <div class="container hero-ribbon-container">
+        <div class="hero-ribbon">
+          <div class="ribbon-item">
+            <i class="fa-solid fa-graduation-cap ribbon-icon"></i>
+            <div>
+              <strong>MCA Post-Graduate</strong>
+              <small>Thanthai Hans Roever College</small>
+            </div>
+          </div>
+          <div class="ribbon-divider"></div>
+          <div class="ribbon-item">
+            <i class="fa-solid fa-layer-group ribbon-icon"></i>
+            <div>
+              <strong>Full Stack Interest</strong>
+              <small>HTML &bull; CSS &bull; JS &bull; PHP &bull; MySQL</small>
+            </div>
+          </div>
+          <div class="ribbon-divider"></div>
+          <div class="ribbon-item">
+            <i class="fa-solid fa-diagram-project ribbon-icon"></i>
+            <div>
+              <strong>Staff Automation System</strong>
+              <small>Flagship Academic Project</small>
+            </div>
+          </div>
+          <div class="ribbon-divider"></div>
+          <div class="ribbon-item">
+            <i class="fa-solid fa-briefcase ribbon-icon"></i>
+            <div>
+              <strong>Career Goal</strong>
+              <small>Full Stack Web Developer</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- 4. ABOUT ME SECTION                                                       -->
+    <!-- ========================================================================= -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header" data-reveal>
+          <span class="section-tag"><i class="fa-solid fa-user"></i> Introduction</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">Get to know more about my educational background, passion for web development, and career aspirations.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Highlight Card -->
+          <div class="about-card-col" data-reveal>
+            <div class="about-summary-card">
+              <div class="about-avatar-mini">
+                <div class="avatar-initials">SP</div>
+                <div>
+                  <h3 class="about-name">S. Shanmuga Priya</h3>
+                  <p class="about-role">MCA Student &bull; Aspiring Full Stack Developer</p>
+                </div>
+              </div>
+
+              <div class="about-info-list">
+                <div class="about-info-row">
+                  <span class="info-label"><i class="fa-solid fa-graduation-cap"></i> Degree:</span>
+                  <span class="info-val">MCA (Pursuing)</span>
+                </div>
+                <div class="about-info-row">
+                  <span class="info-label"><i class="fa-solid fa-award"></i> Previous Degree:</span>
+                  <span class="info-val">BCA (Completed)</span>
+                </div>
+                <div class="about-info-row">
+                  <span class="info-label"><i class="fa-solid fa-building-columns"></i> College:</span>
+                  <span class="info-val">Thanthai Hans Roever College</span>
+                </div>
+                <div class="about-info-row">
+                  <span class="info-label"><i class="fa-solid fa-bullseye"></i> Career Goal:</span>
+                  <span class="info-val">Full Stack Web Developer</span>
+                </div>
+                <div class="about-info-row">
+                  <span class="info-label"><i class="fa-solid fa-location-dot"></i> Location:</span>
+                  <span class="info-val">Tamil Nadu, India <small class="placeholder-note">[Editable]</small></span>
+                </div>
+                <div class="about-info-row">
+                  <span class="info-label"><i class="fa-solid fa-circle-check text-success"></i> Status:</span>
+                  <span class="info-val text-success">Available for Entry-Level Roles</span>
+                </div>
+              </div>
+
+              <!-- Quick Action inside About Card -->
+              <a href="#contact" class="btn btn-outline btn-block mt-3">
+                <i class="fa-regular fa-envelope"></i> Send Me a Message
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Narrative Content -->
+          <div class="about-text-col" data-reveal>
+            <!-- Educational Background -->
+            <div class="narrative-block">
+              <div class="narrative-header">
+                <div class="narrative-icon"><i class="fa-solid fa-book-open-reader"></i></div>
+                <h3 class="narrative-title">Educational Background</h3>
+              </div>
+              <p class="narrative-text">
+                I am currently pursuing my <strong>Master of Computer Applications (MCA)</strong> at <strong>Thanthai Hans Roever College</strong>. Prior to my MCA, I completed my <strong>Bachelor of Computer Applications (BCA)</strong> at the same institution. My academic journey has given me a comprehensive understanding of computer applications, relational database design, software engineering concepts, and algorithms.
+              </p>
+            </div>
+
+            <!-- Interest in Web Development -->
+            <div class="narrative-block">
+              <div class="narrative-header">
+                <div class="narrative-icon"><i class="fa-solid fa-compass-drafting"></i></div>
+                <h3 class="narrative-title">My Interest in Web Development</h3>
+              </div>
+              <p class="narrative-text">
+                My curiosity in web development began with creating simple web pages and quickly turned into a genuine passion. I am fascinated by how modern web technologies bridge visual interfaces with robust server architectures to solve everyday problems for institutions and businesses.
+              </p>
+            </div>
+
+            <!-- Technical Learning Journey -->
+            <div class="narrative-block">
+              <div class="narrative-header">
+                <div class="narrative-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                <h3 class="narrative-title">Technical Learning Journey</h3>
+              </div>
+              <p class="narrative-text">
+                I began by mastering the foundational building blocks of the web: <strong>HTML5</strong> for semantic structure and <strong>CSS3</strong> for responsive styling and flexbox/grid layouts. As I advanced, I expanded into <strong>JavaScript</strong> for dynamic client-side interactions and <strong>PHP with MySQL</strong> for backend processing, session authentication, and database persistence—which I successfully demonstrated in my academic flagship project, the <strong>Staff Automation System</strong>.
+              </p>
+            </div>
+
+            <!-- Career Objective -->
+            <div class="narrative-block objective-block">
+              <div class="narrative-header">
+                <div class="narrative-icon"><i class="fa-solid fa-flag-checkered"></i></div>
+                <h3 class="narrative-title">Career Objective</h3>
+              </div>
+              <blockquote class="objective-quote">
+                "To begin my professional career as a Full Stack Web Developer in a forward-thinking organization where I can contribute my foundational knowledge in PHP, MySQL, and modern frontend technologies, write clean and dependable code, and continuously expand my skill set under the guidance of experienced mentors."
+              </blockquote>
+            </div>
+
+            <!-- Highlights Badges -->
+            <div class="skills-mini-tags">
+              <span class="mini-tag"><i class="fa-solid fa-check"></i> Clean Semantic Code</span>
+              <span class="mini-tag"><i class="fa-solid fa-check"></i> Responsive Mobile-First Design</span>
+              <span class="mini-tag"><i class="fa-solid fa-check"></i> Database CRUD Operations</span>
+              <span class="mini-tag"><i class="fa-solid fa-check"></i> Passionate &amp; Eager to Learn</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- 5. EDUCATION SECTION                                                      -->
+    <!-- ========================================================================= -->
+    <section id="education" class="education-section section-padding bg-alt">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header" data-reveal>
+          <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Academic Timeline</span>
+          <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+          <p class="section-subtitle">Academic qualifications and coursework that built my software and web development foundations.</p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <!-- Timeline Item 1: MCA -->
+          <div class="timeline-card" data-reveal>
+            <div class="timeline-indicator">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-badge badge-current">Currently Pursuing</span>
+                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2024 &ndash; 2026 <small class="placeholder-note">[Editable]</small></span>
+              </div>
+              <h3 class="timeline-degree">Master of Computer Applications (MCA)</h3>
+              <h4 class="timeline-college"><i class="fa-solid fa-building-columns"></i> Thanthai Hans Roever College</h4>
+              <p class="timeline-desc">
+                Currently pursuing advanced post-graduate studies in computer applications. Focusing on modern web application architectures, database systems, software engineering principles, and full-stack development methodologies.
+              </p>
+              <div class="coursework-tags">
+                <span class="coursework-tag">Advanced Web Technologies</span>
+                <span class="coursework-tag">Database Management Systems (DBMS)</span>
+                <span class="coursework-tag">Software Engineering</span>
+                <span class="coursework-tag">Object-Oriented Programming</span>
+                <span class="coursework-tag">Computer Networks</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: BCA -->
+          <div class="timeline-card" data-reveal>
+            <div class="timeline-indicator">
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-badge badge-completed">Completed</span>
+                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2021 &ndash; 2024 <small class="placeholder-note">[Editable]</small></span>
+              </div>
+              <h3 class="timeline-degree">Bachelor of Computer Applications (BCA)</h3>
+              <h4 class="timeline-college"><i class="fa-solid fa-building-columns"></i> Thanthai Hans Roever College</h4>
+              <p class="timeline-desc">
+                Graduated with a strong academic foundation in computer science and programming fundamentals. Developed foundational hands-on proficiency in HTML, CSS, relational database concepts with SQL, and procedural programming.
+              </p>
+              <div class="coursework-tags">
+                <span class="coursework-tag">Web Fundamentals (HTML/CSS)</span>
+                <span class="coursework-tag">Programming in C / C++ / Java</span>
+                <span class="coursework-tag">Relational Databases &amp; SQL</span>
+                <span class="coursework-tag">Data Structures</span>
+                <span class="coursework-tag">Operating Systems</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- College Highlight Card -->
+        <div class="college-highlight-card" data-reveal>
+          <div class="college-icon"><i class="fa-solid fa-landmark"></i></div>
+          <div class="college-info">
+            <h4 class="college-title">Thanthai Hans Roever College</h4>
+            <p class="college-meta">Affiliated Institution &bull; Perambalur, Tamil Nadu</p>
+            <p class="college-desc">An esteemed educational institution known for providing high quality education in Computer Applications, fostering technical excellence, and encouraging practical software development among students.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- 6. TECHNICAL SKILLS SECTION                                               -->
+    <!-- ========================================================================= -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header" data-reveal>
+          <span class="section-tag"><i class="fa-solid fa-code"></i> Technical Stack</span>
+          <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+          <p class="section-subtitle">A transparent, beginner-friendly representation of the technologies I have learned and actively work with.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill 1: HTML5 -->
+          <div class="skill-card" data-reveal>
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap icon-html">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <div class="skill-level-badge badge-core">Core Foundation</div>
+            </div>
+            <h3 class="skill-title">HTML5</h3>
+            <p class="skill-description">
+              Semantic markup, accessible page structure, modern forms, audio/video integration, and SEO-friendly document outlines.
+            </p>
+            <div class="skill-progress-wrap">
+              <div class="skill-progress-info">
+                <span>Proficiency Level</span>
+                <span class="skill-percent">Intermediate</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill fill-html" style="width: 85%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 2: CSS3 -->
+          <div class="skill-card" data-reveal>
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap icon-css">
+                <i class="fa-brands fa-css3-alt"></i>
+              </div>
+              <div class="skill-level-badge badge-core">Core Foundation</div>
+            </div>
+            <h3 class="skill-title">CSS3</h3>
+            <p class="skill-description">
+              Responsive layouts, Flexbox, CSS Grid, media queries, CSS variables, subtle transitions, and mobile-first design principles.
+            </p>
+            <div class="skill-progress-wrap">
+              <div class="skill-progress-info">
+                <span>Proficiency Level</span>
+                <span class="skill-percent">Intermediate</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill fill-css" style="width: 80%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 3: JavaScript -->
+          <div class="skill-card" data-reveal>
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap icon-js">
+                <i class="fa-brands fa-square-js"></i>
+              </div>
+              <div class="skill-level-badge badge-beginner">Beginner / Exploring</div>
+            </div>
+            <h3 class="skill-title">JavaScript</h3>
+            <p class="skill-description">
+              Client-side scripting, DOM manipulation, event listeners, form input validation, dynamic themes, and ES6+ fundamentals.
+            </p>
+            <div class="skill-progress-wrap">
+              <div class="skill-progress-info">
+                <span>Proficiency Level</span>
+                <span class="skill-percent">Beginner</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill fill-js" style="width: 60%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 4: PHP -->
+          <div class="skill-card" data-reveal>
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap icon-php">
+                <i class="fa-brands fa-php"></i>
+              </div>
+              <div class="skill-level-badge badge-core">Project Proven</div>
+            </div>
+            <h3 class="skill-title">PHP</h3>
+            <p class="skill-description">
+              Server-side scripting, form data processing, session management, user authentication, and building dynamic CRUD web systems.
+            </p>
+            <div class="skill-progress-wrap">
+              <div class="skill-progress-info">
+                <span>Proficiency Level</span>
+                <span class="skill-percent">Intermediate</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill fill-php" style="width: 75%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 5: MySQL -->
+          <div class="skill-card" data-reveal>
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap icon-mysql">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <div class="skill-level-badge badge-core">Project Proven</div>
+            </div>
+            <h3 class="skill-title">MySQL</h3>
+            <p class="skill-description">
+              Relational database design, table relationships, SQL queries (SELECT, INSERT, UPDATE, DELETE), primary/foreign keys, and data integrity.
+            </p>
+            <div class="skill-progress-wrap">
+              <div class="skill-progress-info">
+                <span>Proficiency Level</span>
+                <span class="skill-percent">Intermediate</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill fill-mysql" style="width: 75%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Supplementary Tools & Competencies -->
+        <div class="tools-bar" data-reveal>
+          <h4 class="tools-bar-title"><i class="fa-solid fa-screwdriver-wrench"></i> Developer Tools &amp; Practices</h4>
+          <div class="tools-tags">
+            <span class="tool-tag"><i class="fa-brands fa-git-alt"></i> Git Version Control (Basics)</span>
+            <span class="tool-tag"><i class="fa-brands fa-github"></i> GitHub Code Repository</span>
+            <span class="tool-tag"><i class="fa-solid fa-code"></i> VS Code</span>
+            <span class="tool-tag"><i class="fa-solid fa-server"></i> XAMPP / Apache Localhost</span>
+            <span class="tool-tag"><i class="fa-solid fa-mobile-screen"></i> Responsive Web Design</span>
+            <span class="tool-tag"><i class="fa-solid fa-shield-halved"></i> Basic Form Validation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- 7. PROJECTS SECTION                                                       -->
+    <!-- ========================================================================= -->
+    <section id="projects" class="projects-section section-padding bg-alt">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header" data-reveal>
+          <span class="section-tag"><i class="fa-solid fa-diagram-project"></i> Portfolio Showcase</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Real web applications developed during my academic coursework and learning journey.</p>
+        </div>
+
+        <!-- Flagship Project Card -->
+        <div class="project-featured-card" data-reveal>
+          <div class="project-grid">
+            <!-- Project Image / Mockup -->
+            <div class="project-media">
+              <div class="media-container">
+                <img src="images/project1.png" alt="Staff Automation System Dashboard" class="project-img" onerror="this.onerror=null; this.src='images/project-staff-automation.svg';">
+                <div class="media-overlay">
+                  <button type="button" class="btn btn-sm btn-primary" onclick="openProjectModal('staff-automation')">
+                    <i class="fa-solid fa-magnifying-glass-plus"></i> View Full Architecture
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Details -->
+            <div class="project-content">
+              <div class="project-badges">
+                <span class="project-badge badge-featured"><i class="fa-solid fa-star"></i> Flagship Academic Project</span>
+                <span class="project-badge badge-stack">PHP &bull; MySQL &bull; HTML &bull; CSS</span>
+              </div>
+
+              <h3 class="project-title">Staff Automation System</h3>
+
+              <p class="project-desc">
+                A web-based application designed to simplify staff-related activities and automate administrative tasks. Built to replace manual paper records with a streamlined, database-driven digital system for educational institutions.
+              </p>
+
+              <!-- Key Features List -->
+              <div class="project-features-list">
+                <h4 class="features-heading">Key Features Included:</h4>
+                <ul class="features-bullets">
+                  <li><i class="fa-solid fa-check text-accent"></i> <strong>Staff Login:</strong> Secure role-based authentication for administrative staff.</li>
+                  <li><i class="fa-solid fa-check text-accent"></i> <strong>Dashboard:</strong> Interactive management overview showing staff counts, activity, and departments.</li>
+                  <li><i class="fa-solid fa-check text-accent"></i> <strong>Staff Information Management:</strong> Complete CRUD operations to register, modify, view, and organize staff records.</li>
+                  <li><i class="fa-solid fa-check text-accent"></i> <strong>Database Connectivity:</strong> Robust MySQL relational database persistence via PHP.</li>
+                  <li><i class="fa-solid fa-check text-accent"></i> <strong>User-Friendly Interface:</strong> Clean, intuitive layout designed for everyday administrative efficiency.</li>
+                </ul>
+              </div>
+
+              <!-- Tech Stack Tags -->
+              <div class="project-tech-tags">
+                <span class="tech-tag"><i class="fa-brands fa-html5"></i> HTML5</span>
+                <span class="tech-tag"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                <span class="tech-tag"><i class="fa-brands fa-php"></i> PHP</span>
+                <span class="tech-tag"><i class="fa-solid fa-database"></i> MySQL</span>
+                <span class="tech-tag"><i class="fa-solid fa-server"></i> Apache</span>
+              </div>
+
+              <!-- Project Action Buttons -->
+              <div class="project-actions">
+                <button type="button" class="btn btn-primary" onclick="openProjectModal('staff-automation')">
+                  <i class="fa-solid fa-circle-info"></i>
+                  <span>View Project Details</span>
+                </button>
+                <a href="https://github.com/yourusername/staff-automation-system" target="_blank" rel="noopener noreferrer" class="btn btn-outline" title="GitHub Repository Placeholder [Editable]">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub Source Code</span>
+                </a>
+              </div>
+              <small class="project-link-note">* GitHub link is an editable placeholder for your repository.</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- Additional Projects Grid -->
+        <div class="additional-projects-grid">
+          <!-- Project 2: Developer Portfolio -->
+          <div class="project-card" data-reveal>
+            <div class="project-card-media">
+              <img src="images/project-portfolio.svg" alt="Personal Developer Portfolio" class="card-img">
+              <span class="card-badge">Frontend Project</span>
+            </div>
+            <div class="project-card-body">
+              <h3 class="card-title">Personal Developer Portfolio</h3>
+              <p class="card-desc">
+                A sleek, modern developer portfolio website built from scratch with semantic HTML5, CSS3, and modern JavaScript. Features dark/light themes with localStorage, responsive design, and interactive modals.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript (ES6+)</span>
+                <span class="tech-tag">Responsive UI</span>
+              </div>
+              <div class="card-actions">
+                <button type="button" class="btn btn-sm btn-primary" onclick="openProjectModal('portfolio-site')">
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+                <a href="https://github.com/yourusername/personal-portfolio" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline" title="GitHub Repository Placeholder [Editable]">
+                  <i class="fa-brands fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Student Management System -->
+          <div class="project-card" data-reveal>
+            <div class="project-card-media">
+              <img src="images/project-student-system.svg" alt="Student Records & Attendance Portal" class="card-img">
+              <span class="card-badge">Academic Concept</span>
+            </div>
+            <div class="project-card-body">
+              <h3 class="card-title">Student Records &amp; Attendance Portal</h3>
+              <p class="card-desc">
+                A dynamic academic practice web portal for managing student profile records, course enrollment, and semester attendance tracking with MySQL database connectivity and PHP data validation.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+              <div class="card-actions">
+                <button type="button" class="btn btn-sm btn-primary" onclick="openProjectModal('student-portal')">
+                  <i class="fa-solid fa-circle-info"></i> Details
+                </button>
+                <a href="https://github.com/yourusername/student-portal" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline" title="GitHub Repository Placeholder [Editable]">
+                  <i class="fa-brands fa-github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- 8. RESUME SECTION                                                         -->
+    <!-- ========================================================================= -->
+    <section id="resume" class="resume-section section-padding">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header" data-reveal>
+          <span class="section-tag"><i class="fa-solid fa-file-lines"></i> Curriculum Vitae</span>
+          <h2 class="section-title">My <span class="gradient-text">Resume</span></h2>
+          <p class="section-subtitle">A consolidated summary of my qualifications, technical skills, project work, and career objective.</p>
+        </div>
+
+        <!-- ATS Resume Document Container -->
+        <div class="resume-document-wrapper" data-reveal>
+          <!-- Resume Action Bar -->
+          <div class="resume-action-bar">
+            <div class="action-bar-info">
+              <i class="fa-solid fa-file-pdf resume-icon-pdf"></i>
+              <div>
+                <strong>S_Shanmuga_Priya_Resume.pdf</strong>
+                <small class="text-muted d-block">Official PDF &bull; Ready to download and view</small>
+              </div>
+            </div>
+            <div class="action-bar-buttons">
+              <!-- Functional Download Button: Points to assets/resume.pdf -->
+              <a href="assets/resume.pdf" download="S_Shanmuga_Priya_Resume.pdf" class="btn btn-primary" id="downloadResumeBtn">
+                <i class="fa-solid fa-download"></i>
+                <span>Download Resume (PDF)</span>
+              </a>
+              <!-- Print / Browser Preview Button -->
+              <button type="button" class="btn btn-outline" onclick="window.print()" title="Print or Save as PDF using your browser">
+                <i class="fa-solid fa-print"></i>
+                <span>Print / Preview</span>
+              </button>
+              <!-- Open in New Tab -->
+              <a href="assets/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" title="Open PDF in a new browser tab">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Printable Resume Viewport -->
+          <div class="resume-paper" id="resumePaper">
+            <!-- Header -->
+            <header class="resume-paper-header">
+              <h1 class="resume-candidate-name">S. SHANMUGA PRIYA</h1>
+              <p class="resume-candidate-title">MCA Student | Aspiring Full Stack Web Developer</p>
+              <div class="resume-contact-ribbon">
+                <span><i class="fa-solid fa-envelope"></i> shanmugapriya.mca@example.com <small>[Editable]</small></span>
+                <span>&bull;</span>
+                <span><i class="fa-solid fa-phone"></i> +91 98765 43210 <small>[Editable]</small></span>
+                <span>&bull;</span>
+                <span><i class="fa-solid fa-location-dot"></i> Tamil Nadu, India <small>[Editable]</small></span>
+              </div>
+              <div class="resume-contact-ribbon sub-ribbon">
+                <span><i class="fa-brands fa-linkedin"></i> linkedin.com/in/yourprofile <small>[Editable]</small></span>
+                <span>&bull;</span>
+                <span><i class="fa-brands fa-github"></i> github.com/yourusername <small>[Editable]</small></span>
+              </div>
+            </header>
+
+            <hr class="resume-divider">
+
+            <!-- Career Objective -->
+            <section class="resume-paper-section">
+              <h2 class="resume-section-heading">CAREER OBJECTIVE</h2>
+              <p class="resume-section-text">
+                Motivated and detail-oriented Master of Computer Applications (MCA) student seeking an entry-level Full Stack Web Developer position. Possesses strong foundational knowledge of HTML5, CSS3, JavaScript, PHP, and MySQL with practical experience building database-driven applications like the Staff Automation System. Committed to writing clean, maintainable code and learning modern technologies in a collaborative engineering team.
+              </p>
+            </section>
+
+            <!-- Education -->
+            <section class="resume-paper-section">
+              <h2 class="resume-section-heading">EDUCATION</h2>
+              
+              <div class="resume-entry">
+                <div class="resume-entry-header">
+                  <div>
+                    <h3 class="resume-entry-title">Master of Computer Applications (MCA)</h3>
+                    <p class="resume-entry-inst">Thanthai Hans Roever College</p>
+                  </div>
+                  <div class="resume-entry-date">
+                    <span>2024 &ndash; 2026 (Pursuing) <small>[Editable]</small></span>
+                  </div>
+                </div>
+                <p class="resume-entry-sub">Focus: Advanced Web Development, Database Management Systems, Software Engineering, Object-Oriented Programming.</p>
+              </div>
+
+              <div class="resume-entry">
+                <div class="resume-entry-header">
+                  <div>
+                    <h3 class="resume-entry-title">Bachelor of Computer Applications (BCA)</h3>
+                    <p class="resume-entry-inst">Thanthai Hans Roever College</p>
+                  </div>
+                  <div class="resume-entry-date">
+                    <span>2021 &ndash; 2024 <small>[Editable]</small></span>
+                  </div>
+                </div>
+                <p class="resume-entry-sub">Focus: Web Programming Fundamentals, Programming in C/C++/Java, RDBMS, Data Structures, Operating Systems.</p>
+              </div>
+            </section>
+
+            <!-- Technical Skills -->
+            <section class="resume-paper-section">
+              <h2 class="resume-section-heading">TECHNICAL SKILLS</h2>
+              <div class="resume-skills-matrix">
+                <div class="resume-skill-row">
+                  <span class="resume-skill-category">Frontend Technologies:</span>
+                  <span class="resume-skill-items">HTML5, CSS3, JavaScript (Beginner), Responsive Web Design, Flexbox, CSS Grid</span>
+                </div>
+                <div class="resume-skill-row">
+                  <span class="resume-skill-category">Backend Technologies:</span>
+                  <span class="resume-skill-items">PHP (Form Processing, Sessions, User Authentication, CRUD Development)</span>
+                </div>
+                <div class="resume-skill-row">
+                  <span class="resume-skill-category">Database:</span>
+                  <span class="resume-skill-items">MySQL (Relational Schema Design, SQL Queries, Joins, Data Normalization)</span>
+                </div>
+                <div class="resume-skill-row">
+                  <span class="resume-skill-category">Tools &amp; Environments:</span>
+                  <span class="resume-skill-items">VS Code, Git &amp; GitHub (Basics), XAMPP, Apache Server, Windows</span>
+                </div>
+              </div>
+            </section>
+
+            <!-- Academic Project Details -->
+            <section class="resume-paper-section">
+              <h2 class="resume-section-heading">ACADEMIC &amp; FEATURED PROJECTS</h2>
+              <div class="resume-entry">
+                <div class="resume-entry-header">
+                  <h3 class="resume-entry-title">Staff Automation System</h3>
+                  <span class="resume-entry-date">Technologies: HTML, CSS, PHP, MySQL</span>
+                </div>
+                <ul class="resume-bullets">
+                  <li>Engineered a web application to streamline administrative staff operations and automate institutional record-keeping.</li>
+                  <li>Implemented secure staff login authentication and an administrative dashboard presenting real-time department statistics.</li>
+                  <li>Created complete CRUD modules allowing administrators to register, edit, search, and delete staff information.</li>
+                  <li>Established reliable MySQL database connectivity for automated data storage and retrieval.</li>
+                  <li>Designed an intuitive, responsive interface focusing on user experience and productivity.</li>
+                </ul>
+              </div>
+
+              <div class="resume-entry">
+                <div class="resume-entry-header">
+                  <h3 class="resume-entry-title">Personal Developer Portfolio Website</h3>
+                  <span class="resume-entry-date">Technologies: HTML5, CSS3, JavaScript (ES6+)</span>
+                </div>
+                <ul class="resume-bullets">
+                  <li>Developed a modern, fully responsive personal developer portfolio showcasing academic qualifications, projects, and skills.</li>
+                  <li>Integrated dark/light theme switching with localStorage persistence, active navigation scrollspy, and interactive modal dialogs.</li>
+                  <li>Added client-side form validation with real-time feedback and accessibility features.</li>
+                </ul>
+              </div>
+            </section>
+          </div>
+
+          <!-- Note for Shanmuga Priya -->
+          <div class="resume-note-card">
+            <i class="fa-solid fa-circle-info"></i>
+            <div>
+              <strong>Quick Tip for Shanmuga Priya:</strong>
+              <p>The "Download Resume" button links directly to the real document at <code>assets/resume.pdf</code>. To update it with your own freshly compiled PDF at any time, simply replace the file inside the <code>assets/</code> folder!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- 9. CONTACT SECTION                                                        -->
+    <!-- ========================================================================= -->
+    <section id="contact" class="contact-section section-padding bg-alt">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header" data-reveal>
+          <span class="section-tag"><i class="fa-solid fa-envelope"></i> Let's Connect</span>
+          <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+          <p class="section-subtitle">Have a job opportunity, placement inquiry, or question? Feel free to reach out directly or send a message below.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Contact Cards -->
+          <div class="contact-info-col" data-reveal>
+            <div class="contact-intro">
+              <h3 class="contact-col-title">Let's talk about opportunities!</h3>
+              <p class="contact-col-desc">
+                As a fresher MCA student aspiring to be a Full Stack Web Developer, I am eager to learn, contribute, and build high-quality web applications. Reach out through any channel below:
+              </p>
+            </div>
+
+            <!-- Contact Cards -->
+            <div class="contact-cards-stack">
+              <!-- Email Card -->
+              <div class="contact-card">
+                <div class="contact-card-icon icon-email">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="contact-card-content">
+                  <span class="contact-card-label">Email Address <small class="placeholder-tag">[Placeholder]</small></span>
+                  <a href="mailto:your.email@example.com" class="contact-card-value" id="contactEmailLink">your.email@example.com</a>
+                </div>
+                <button type="button" class="copy-btn" onclick="copyToClipboard('your.email@example.com', 'Email copied!')" title="Copy email">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <!-- Phone Card -->
+              <div class="contact-card">
+                <div class="contact-card-icon icon-phone">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="contact-card-content">
+                  <span class="contact-card-label">Phone Number <small class="placeholder-tag">[Placeholder]</small></span>
+                  <a href="tel:+919876543210" class="contact-card-value">+91 98765 43210</a>
+                </div>
+                <button type="button" class="copy-btn" onclick="copyToClipboard('+919876543210', 'Phone number copied!')" title="Copy phone">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+
+              <!-- LinkedIn Card -->
+              <div class="contact-card">
+                <div class="contact-card-icon icon-linkedin">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div class="contact-card-content">
+                  <span class="contact-card-label">LinkedIn Profile <small class="placeholder-tag">[Placeholder]</small></span>
+                  <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" class="contact-card-value">linkedin.com/in/yourprofile</a>
+                </div>
+                <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" class="external-btn" title="Visit LinkedIn">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+
+              <!-- GitHub Card -->
+              <div class="contact-card">
+                <div class="contact-card-icon icon-github">
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="contact-card-content">
+                  <span class="contact-card-label">GitHub Profile <small class="placeholder-tag">[Placeholder]</small></span>
+                  <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="contact-card-value">github.com/yourusername</a>
+                </div>
+                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="external-btn" title="Visit GitHub">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+
+              <!-- Location Card -->
+              <div class="contact-card">
+                <div class="contact-card-icon icon-location">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="contact-card-content">
+                  <span class="contact-card-label">Location</span>
+                  <span class="contact-card-value">Perambalur, Tamil Nadu, India <small class="placeholder-tag">[Editable]</small></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- College Affiliation Badge -->
+            <div class="affiliation-badge">
+              <i class="fa-solid fa-graduation-cap text-accent"></i>
+              <span>Thanthai Hans Roever College &bull; MCA Department</span>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Contact Form -->
+          <div class="contact-form-col" data-reveal>
+            <div class="contact-form-container">
+              <h3 class="form-title">Send Me a Message</h3>
+              <p class="form-subtitle">Fill in the fields below. Input is validated using JavaScript in real-time.</p>
+
+              <form id="contactForm" novalidate>
+                <!-- Name Field -->
+                <div class="form-group">
+                  <label for="contactName" class="form-label">Your Name <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i class="fa-regular fa-user input-icon"></i>
+                    <input type="text" id="contactName" name="name" class="form-input" placeholder="e.g. John Doe" required autocomplete="name">
+                  </div>
+                  <span class="error-msg" id="nameError"></span>
+                </div>
+
+                <!-- Email Field -->
+                <div class="form-group">
+                  <label for="contactEmail" class="form-label">Email Address <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i class="fa-regular fa-envelope input-icon"></i>
+                    <input type="email" id="contactEmail" name="email" class="form-input" placeholder="e.g. johndoe@example.com" required autocomplete="email">
+                  </div>
+                  <span class="error-msg" id="emailError"></span>
+                </div>
+
+                <!-- Subject Field -->
+                <div class="form-group">
+                  <label for="contactSubject" class="form-label">Subject <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i class="fa-solid fa-tag input-icon"></i>
+                    <input type="text" id="contactSubject" name="subject" class="form-input" placeholder="e.g. MCA Placement Inquiry / Web Developer Role" required>
+                  </div>
+                  <span class="error-msg" id="subjectError"></span>
+                </div>
+
+                <!-- Message Field -->
+                <div class="form-group">
+                  <div class="label-with-counter">
+                    <label for="contactMessage" class="form-label">Your Message <span class="required">*</span></label>
+                    <span class="char-counter" id="charCounter">0 / 500</span>
+                  </div>
+                  <div class="input-wrapper textarea-wrapper">
+                    <i class="fa-regular fa-comment-dots input-icon textarea-icon"></i>
+                    <textarea id="contactMessage" name="message" class="form-input form-textarea" rows="5" placeholder="Hi Shanmuga Priya, I reviewed your portfolio and would like to connect regarding..." required maxlength="500"></textarea>
+                  </div>
+                  <span class="error-msg" id="messageError"></span>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                  <span class="btn-text">Send Message</span>
+                  <i class="fa-regular fa-paper-plane btn-icon"></i>
+                </button>
+
+                <!-- Transparency Note -->
+                <p class="form-note">
+                  <i class="fa-solid fa-shield-halved"></i> Note: This contact form validates your inputs via JavaScript. As a client-side portfolio, it opens your pre-filled email client so your message reaches me reliably!
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- 14. FOOTER                                                                -->
+  <!-- ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="footer-logo">
+            <span class="logo-icon"><i class="fa-solid fa-code"></i></span>
+            <span class="logo-text">S. Shanmuga Priya</span>
+          </a>
+          <p class="footer-bio">
+            MCA Student at Thanthai Hans Roever College &bull; Aspiring Full Stack Web Developer.
+          </p>
+          <p class="footer-motto">
+            <em>"Designed and Developed with passion."</em>
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Technical Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social-col">
+          <h4 class="footer-heading">Connect With Me</h4>
+          <p class="footer-subtext">Open to job inquiries, internships, and networking.</p>
+          <div class="footer-social-links">
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="GitHub" title="GitHub [Editable]">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="LinkedIn" title="LinkedIn [Editable]">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:your.email@example.com" class="footer-social-icon" aria-label="Email" title="Email [Editable]">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="tel:+919876543210" class="footer-social-icon" aria-label="Phone" title="Phone [Editable]">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="footer-divider">
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; 2026 <strong>S. Shanmuga Priya</strong>. All rights reserved.
+        </p>
+        <div class="footer-bottom-links">
+          <span>College: Thanthai Hans Roever College</span>
+          <span>&bull;</span>
+          <a href="#home" class="back-to-top-link">Back to Top <i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================= -->
+  <!-- PROJECT DETAIL MODAL                                                      -->
+  <!-- ========================================================================= -->
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <div class="modal-title-wrap">
+            <span class="modal-badge" id="modalBadge">Academic Project</span>
+            <h3 class="modal-title" id="modalTitle">Project Details</h3>
+          </div>
+          <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close dialog">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+        <!-- Modal Body -->
+        <div class="modal-body" id="modalBody">
+          <!-- Dynamic Content injected by script.js -->
+        </div>
+
+        <!-- Modal Footer -->
+        <div class="modal-footer" id="modalFooter">
+          <!-- Dynamic Buttons injected by script.js -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- CONTACT SUBMISSION MODAL                                                  -->
+  <!-- ========================================================================= -->
+  <div class="modal-overlay" id="contactConfirmModal" role="dialog" aria-modal="true" aria-labelledby="contactConfirmTitle" tabindex="-1">
+    <div class="modal-dialog modal-dialog-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title text-success" id="contactConfirmTitle">
+            <i class="fa-solid fa-circle-check"></i> Message Validated!
+          </h3>
+          <button type="button" class="modal-close-btn" id="contactModalCloseBtn" aria-label="Close dialog">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Thank you, <strong id="confirmSenderName">Friend</strong>! Your message inputs have been verified successfully.</p>
+          <p class="modal-note">
+            Since this portfolio is hosted client-side, click the button below to dispatch this message directly via your email client to Shanmuga Priya, or copy the formatted text.
+          </p>
+          <div class="message-preview-box" id="messagePreviewBox"></div>
+        </div>
+        <div class="modal-footer">
+          <a href="#" id="mailtoDirectBtn" class="btn btn-primary">
+            <i class="fa-solid fa-paper-plane"></i> Open in Email Client
+          </a>
+          <button type="button" class="btn btn-outline" id="copyMsgBtn">
+            <i class="fa-regular fa-copy"></i> Copy Message
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- FLOATING UI ELEMENTS: TOAST NOTIFICATION & BACK TO TOP BUTTON             -->
+  <!-- ========================================================================= -->
+  <!-- Floating Toast Notification -->
+  <div class="toast-notification" id="toastNotification" role="alert" aria-live="assertive">
+    <i class="fa-solid fa-circle-info toast-icon" id="toastIcon"></i>
+    <span class="toast-message" id="toastMessage">Notification</span>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-to-top-btn" id="backToTopBtn" aria-label="Scroll back to top" title="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- ========================================================================= -->
+  <!-- JAVASCRIPT LOGIC                                                          -->
+  <!-- ========================================================================= -->
+  <script src="js/script.js"></script>
+</body>
+</html>
